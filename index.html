@@ -1,23 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
     <title>Richard A. Khouri Jr.</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="blurb">
-        <h1>Hi there, I'm Richard Khouri!</h1>
-        <p>Who am I? My name is Richard Khouri and I am a sophmore at Clemson University!
-        </p>
+    <nav>
+      <div class="logo">Richard A. Khouri Jr.</div>
+      <div class="nav-items">
+        <a href="/">Home</a>
+        <a href="/">About</a>
+        <a href="/">Contact</a>
       </div>
-    </div>
-    <footer>
-      <ul>
-        <li><a href="mailto:richie.khouri@gmail.com">richie.khouri@gmail.com</a></li>
-        <li>
-          <a href="https://github.com/rakhouri">github.com/rakhouri</a>
-        </li>
-      </ul>
-    </footer>
+    </nav>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="column-left">
+          <h1>Richard A. Khouri Jr.</h1>
+          <p>
+            Hey there! I'm Richard Khouri, a sophomore diving deep into the world of possibilities at Clemson University. 
+            My academic journey revolves around the intricate dance of codes as I pursue a major in computer science, sprinkled with a dash of cybersecurity finesse.<br>
+            <br>
+            Web development and cybersecurity are my playgrounds of choice, where I merge creativity with the ever-evolving landscape of digital security. 
+            When I'm not unraveling the mysteries of algorithms, you'll find me donning the hat of an Undergrad TA for the Intro to Python course, guiding fellow students through the maze of coding syntax.
+            But it doesn't stop there—I'm a double-threat tutor, shedding light on the enigmatic realms of calculus and chemistry. 
+            From unraveling the secrets of programming languages to decoding the mysteries of equations, I'm here to make the complex seem like a walk in the park.<br>
+            <br>
+            Join me on this journey of bytes, bugs, and equations as I navigate the exciting intersections of technology and education. 
+            Let's code the future and solve the problems that make the world tick!
+          </p>
+          <button onclick="window.open('https://www.linkedin.com/in/richard-khouri-jr-97352a25a/')" type="button">LinkedIn</button>
+        </div>
+        <div class="column-right">
+          <img 
+            src="./pfp.jpg" 
+            alt="illustration"
+            class="hero-image"
+          />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
